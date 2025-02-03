@@ -4,4 +4,3 @@ def get_ordered_list(lst=None):
         lst = [int(x.strip()) for x in input_str.split(",")]
     return sorted(lst)
 
-print(get_ordered_list())
